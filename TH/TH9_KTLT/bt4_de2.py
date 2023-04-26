@@ -27,7 +27,7 @@ class NhanVien:
         
     def TinhTienThue(self):
         self.thue = 0
-        if self.luong>=2000000:
+        if self.luong>=20000000:
             self.thue = (self.luong - 11000000)*0.2
             return self.thue
         elif self.luong>=15000000 and self.luong<20000000:
@@ -47,5 +47,4 @@ if __name__ == "__main__":
     call.Nhapthongtin()
     print("Xuat thong tin")
     call.Xuatthongtin()
-    thue = call.TinhTienThue()
-    print(f"Thue phai tra la: {thue}")
+    print(f"Thue phai tra la: {call.TinhTienThue()}")
