@@ -43,6 +43,7 @@ if __name__ == "__main__":
         print(f"flag2 = {flag2}")
         print(f"flag3 = {flag3}")
         print(f"flag4 = {flag4}")
+        # Kiểm tra nếu 4 flag = False thì chương trình đúng
 
     
     print("-----output-----")
