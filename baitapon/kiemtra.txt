@@ -1,0 +1,2 @@
+Ket qua cau 1a: 2
+Ket qua cau 1b: -1.8
